@@ -1,5 +1,5 @@
 if getgenv().Tvk then 
-    if game.CoreGui:FindFirstChild(" HUB GUI") then for i, v in ipairs(game.CoreGui:GetChildren()) do if v.Name == " HUB GUI" then v:Destroy() end end end
+    if game.CoreGui:FindFirstChild("Sea HUB GUI") then for i, v in ipairs(game.CoreGui:GetChildren()) do if v.Name == "Sea HUB GUI" then v:Destroy() end end end
 end
 getgenv().Tvk = true
 
